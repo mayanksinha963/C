@@ -17,8 +17,9 @@ int main(int argc, char const *argv[])
 {
     int num1 = 56, num2 = 98;
     int result = gcd(num1, num2);
-    printf("%d", result);
+    printf("%d\n", result);
+
     return 0;
 
-    abs()
+    
 }
