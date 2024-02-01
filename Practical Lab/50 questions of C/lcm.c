@@ -1,5 +1,6 @@
 // Write a  C program to find the LCM of two numbers.
 #include<stdio.h>
+#include<stdlib.h>
 
 int gcd(int num1, int num2)
 {
@@ -18,11 +19,12 @@ int gcd(int num1, int num2)
 int lcm(int num1, int num2)
 {
     int gcdresult = gcd(num1, num2);
-    int numerator = num1*num2;
-    if (numerator < 0)
-    {
-        numerator *= -1;
-    }
+    int numerator = abs(num1*num2);
+    
+    // if (numerator < 0)
+    // {
+    //     numerator *= -1;
+    // }
 
     return (numerator)/gcdresult;
     
