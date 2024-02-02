@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        ".C": "cpp"
+        ".C": "cpp",
+        "algorithm": "c"
     },
     "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe"
 }
