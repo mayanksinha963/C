@@ -1,3 +1,6 @@
+//Swapping a number using bit manipulation
+
+
 #include<stdio.h>
 
 int main(int argc, char const *argv[])
