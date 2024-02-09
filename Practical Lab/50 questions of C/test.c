@@ -42,11 +42,15 @@ int main(int argc, char const *argv[])
     // int a = 200*200/200;
     // printf("%d",a );
 
-    float x = 1.5;
-    int y = 3;
-    // x = y/2+y*8/y-y+x/3;
-    // printf("x=%f\n",x);
-    float z = 3.00/2;
-    printf("%f", z);
+    // float x = 1.5;
+    // int y = 3;
+    // // x = y/2+y*8/y-y+x/3;
+    // // printf("x=%f\n",x);
+    // float z = 3.00/2;
+    // printf("%f", z);
+
+    float x;
+    x = 6/3;
+    printf("%d %f",7,7.0);
     return 0;
 }
