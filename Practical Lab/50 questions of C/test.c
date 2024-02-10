@@ -49,8 +49,38 @@ int main(int argc, char const *argv[])
     // float z = 3.00/2;
     // printf("%f", z);
 
-    float x;
-    x = 6/3;
-    printf("%d %f",7,7.0);
+    // float x;
+    // x = 6/3;
+    // printf("%d %f",7,7.0);
+    int p, q;
+    // scanf("Enter values of p and q %d%d", &p, &q);
+
+    // printf("You Entered p : %d q = %d", p, q);
+    // scanf(" %d %d", &p, &q);
+    // printf("%d %d", p, q);
+    // scanf("%d\n\n%d", &p,&q);
+
+    // printf("none can nt really do anything if somone is\
+    // passing through a difficult period. But, often small words\
+    // of support help people snap out of their ");
+
+    // printf("%d %d", p, q);
+
+    // printf("This is a long message that "
+    //    "spans over multiple lines "
+    //    "for better readability.\n");
+
+    // int i = 7, j = -2, k= 0, x,y;
+    // x = i-7 && j+5 || k+2;
+    // y = i+5 || j+1 && k+2;
+    // printf("%d %d", x, y);
+
+    int i;
+    for (int i = 1; i++ <= 5; printf("%d",i))
+    {
+        printf("\nHello");
+    }
+    
+
     return 0;
 }
